@@ -42,3 +42,10 @@
 //function typeof return => function object
 
 
+//+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack & Heap Memory 
+
+//Premitive datatype (Stack)
+
+//Non premitive datatype (Heap)
