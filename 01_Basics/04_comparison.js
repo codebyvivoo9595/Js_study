@@ -25,9 +25,9 @@
 
 //Strict check 
 
-console.log("2" == 2); //True -  datatype conversion hoil ani value int convert houn 
+// console.log("2" == 2); //True -  datatype conversion hoil ani value int convert houn 
 
-console.log("2" === 2); //false - ethe datatype conversion nahi honar ajun data type check hoil value barobar 
+// console.log("2" === 2); //false - ethe datatype conversion nahi honar ajun data type check hoil value barobar 
 
 
 
