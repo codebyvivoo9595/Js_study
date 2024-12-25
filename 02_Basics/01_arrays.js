@@ -46,5 +46,28 @@ console.log(typeof newarry);//String
 //----------------------------------------------------
 
 //Slice, Splice 
+const yeMereArray = [1,2,3,4,5]
+
+//console.log("A ",yeMereArray);
+
+const mynewarry = yeMereArray.splice(1,3);
+/*
+Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
+*/
+//A  [ 1, 2, 3, 4, 5 ]
+//console.log(yeMereArray);//[ 1, 5 ]
+//console.log(mynewarry);//[ 2, 3, 4 ]
+
+//Slice
+const teraArray= [1,2,3,4,5]
+const sliceValaArry = teraArray.slice(1,3)
+/*
+Returns a copy of a section of an array. For both start and end, a negative index can be used to indicate an offset from the end of the array. For example, -2 refers to the second to last element of the array.
+*/
+console.log('B ',teraArray); //B  [ 1, 2, 3, 4, 5 ]
+console.log(sliceValaArry);//[ 2, 3 ]
+
+//Splice - Original array madhun pn element delete karto ani new array madhe return karto
+
 
 
