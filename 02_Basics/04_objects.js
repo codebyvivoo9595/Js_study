@@ -107,4 +107,42 @@ const userDBData = [
 
 //--------------------------------------------------
 
+ //Object Destructuring
+
+ const course = {
+    coursename:"JavaScript In Hindi",
+    price:"9999",
+    instructor:"Chaitalee Madam"
+
+ }
+ //if i want the instructor name then how i access it 
  
+ //console.log(course.instructor);//Chaitalee Madam
+ //But suppose i have to use this value more than 10 times then i have to use the same syntax every time 
+
+ //Object Destructuring is nothing but the syntaxical sugar only 
+//console.log(course.instructor);
+//console.log(course.instructor);
+//console.log(course.instructor);
+
+// const {instructor} = course 
+// //console.log(instructor);//Chaitalee Madam
+
+// We can also rename it 
+// const {instructor:Teacher } = course 
+// console.log(instructor);//Chaitalee Madam
+// console.log(Teacher);//Chaitalee Madam
+
+ //--------------------------------------------------
+
+ //Json API
+ //Javascript Object Notation
+ //Just like a object but no name 
+ /*
+ {
+   "name":"Vivek",
+   "id":9595,
+   "age"25,
+   "isMarried":false
+ }
+*/
