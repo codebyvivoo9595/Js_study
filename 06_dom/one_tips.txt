@@ -1,0 +1,48 @@
+//Selecter
+document.getElementById('title')
+<h1 id=​"title" class=​"heading">​…​</h1>​
+
+title.innerHTML
+'DOM Learing with chai &amp; code <span style="display: none;"> Test text </span>' 
+//innerHTML he karto tevha purn elements milatat jari te diplay none kiva ajun css property vapari astil tri 
+
+
+
+title.innerText
+'DOM Learing with chai & code'
+//innerText Ya madhe fkt containt kay ahe tevdh kalt 
+
+
+
+title.textContent
+'DOM Learing with chai & code  Test text '
+//textContent Ya madhe element diplay none asel tr tychi text containt fkt kalate 
+
+
+//  document.querySelector('h1')
+<h1 id=​"title" class=​"heading">​…​</h1>​
+//Jo pahila h1 asel to milel apalyala 
+
+document.querySelector('#title')
+<h1 id=​"title" class=​"heading">​…​</h1>​
+
+document.querySelector('.heading')
+<h1 id=​"title" class=​"heading">​…​</h1>​
+
+//Input type 
+document.querySelector('input[type=password]')
+<input type=​"password" name id=​"password">​
+
+const mylist = document.querySelector('ul')
+
+mylist.querySelector('li')
+<li>​…​</li>​::marker​"one"</li>​
+
+
+const get_element_by_classname =document.getElementsByClassName('list-item')
+//pn ethe aplyala html colletion milato array nahi milat so apanlya hyla array madhe convert karav lagt
+
+arr.from(Konala convert karyche ahe array madhe to var)
+
+Array.from(get_element_by_classname)
+//Mg apan array la traverse karu shakto
