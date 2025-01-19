@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Chai Aur Code </title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+
+<script>
+   const Parent= document.querySelector('.parent');
+
+//    console.log(Parent); 
+//    console.log(Parent.children);
+   //we wil get html collection here 
+//    console.log(Parent.children[0] );
+   //<div class="day">Monday</div>
+//    console.log(Parent.children[0].innerHTML );
+//    console.log(Parent.children[0].textContent);
+
+//    console.log("Loop Output");
+   
+//    for (let i = 0; i < Parent.children.length; i++) {
+//     console.log(Parent.children[i].innerHTML)
+//    }
+
+//    Parent.children[0].style.color ="green";
+
+  // Parent.firstElementChild
+//    console.log( Parent.firstElementChild)
+   //It will return the first element child
+
+//    console.log( Parent.lastElementChild)
+   //It will return the last element child
+  
+   //parentElement &  nextElementSibling
+//    const dayone = document.querySelector('.day');
+
+//    console.log(dayone);
+
+//    const childToParent = dayone.parentElement
+   
+//    console.log(childToParent);
+   
+//    console.log(Parent.nextElementSibling);
+   
+console.log("Node : ", Parent.childNodes);
+//Here we get the Node List 
+
+   
+</script>
+</html>
