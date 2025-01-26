@@ -1,0 +1,23 @@
+--- Javascript 
+ synchronus - by default
+ single threaded 
+
+
+ Execution Context
+ - execute one line of code at a time 
+ |=console.log1
+               //each operation wait for to last operation to compelte
+ |=console.log2
+
+ //Call stack       //Memoey Heap
+
+ ----------------------------------------------------
+
+ Blocking code         vs          Non Blocking code 
+
+Blocking code = Block the flow of program
+Read file synchronus
+
+NonBlocking code = Does not block the flow of program
+Read file Asynchronus
+
