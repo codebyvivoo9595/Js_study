@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async Projects</title>
+</head>
+<body>
+     <h1>Chai Aur Code</h1>
+     <button 
+     id="start">start</button>
+     <button id="stop" value="Stop">Stop</button>
+</body>
+<script>
+    const sayDate = function(){
+        console.log("Hi Todays Date -:" + Date.now());   
+    }
+    
+    const Clear =  setInterval(sayDate,1000)
+
+   document.querySelector('#start').addEventListener('click',function(e){
+    setInterval(sayDate,1000)
+   }) 
+
+
+   document.querySelector('#stop').addEventListener('click',function(e){
+    clearInterval(Clear)
+    console.log("clear")
+   })
+
+//   const Clear =  setInterval(sayDate,1000)
+
+  // setInterval(sayDate,1000,'Hi Vivek')ek extra parameter pn pass karu shakto ethe 
+
+  clearInterval(Clear)
+  //clear Interval stop karnysathi use hote 
+</script>
+
+</html>
