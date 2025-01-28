@@ -152,3 +152,12 @@ console.log(data);
 })
 .catch((error)=>console.log("error",error)
 )
+
+
+//The Fetch API provides an interface for fetching resources (including across the network). It is a more powerful and flexible replacement for XMLHttpRequest.
+
+
+
+//fetch() api cha error jari ala  tri to (404 error) 
+//tri to .then() la as responese mhnun milel naki 
+// .catch() la milnar
